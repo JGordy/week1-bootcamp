@@ -1,0 +1,82 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #fff;
+}
+
+div{
+  background-color: #aaa;
+}
+#nav-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: baseline;
+  width: 100%;
+  padding: 20px;
+}
+
+h3 {
+  color: cyan;
+  text-transform: uppercase;
+
+  font-size: 24px;
+}
+
+nav {
+
+}
+
+nav a {
+  margin: auto 20px;
+  color: cyan;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+nav a:hover {
+  border-bottom: 5px solid lime;
+  padding-bottom: 15px;
+}
+
+nav a.active-link {
+  border-bottom: 5px solid white;
+  padding-bottom: 15px;
+}
+
+ul {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+li {
+  flex-basis: 40%;
+  margin: 20px auto;
+  border: 2px solid cyan;
+  list-style: none;
+  height: 500px;
+  background-size: cover;
+  background-repeat: none;
+
+}
+
+#Joe1 {
+  background-image: url(./images/Zebra-Wallpaper.jpg);
+
+}
+
+#Joe2 {
+background-image: url(./images/Zebra-Wallpaper.jpg);
+}
+
+#Joe3 {
+background-image: url(./images/Zebra-Wallpaper.jpg);
+}
+
+#notJoe {
+background-image: url(./images/Zebra-Wallpaper.jpg);
+background-size: cover;
+}
